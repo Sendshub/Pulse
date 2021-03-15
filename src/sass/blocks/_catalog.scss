@@ -119,12 +119,12 @@
         }
         &__content {
             width: 50%;
-            margin-right: 0px;
-            transform: translateX(-100%);
+            margin-right: 20px;
+            transform: translateX(calc(-100% - 40px));
             transition: 0.5s all;
             &_active {
                 transform: translateX(0%);
-                margin-right: 20px;
+                // margin-right: 20px;
             }
         }
         &__list {
@@ -138,8 +138,8 @@
             margin-bottom: 0;
             list-style-type: none;
             &_active {
-                transform: translateX(-100%);
-                margin-left: 0;
+                transform: translateX(calc(-100% - 40px));
+                // margin-left: 0;
             }
             li {
                 position: relative;
